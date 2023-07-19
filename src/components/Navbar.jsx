@@ -161,7 +161,7 @@ export const Navbar = () => {
 						Contact
 					</Link>
 					<div className="social-icon">
-						<a href="fredrickuzb55@gmail.com">
+						<a href="mailto:fredrickuzb55.com">
 							<HiMail></HiMail>
 						</a>
 						<a href="https://app.netlify.com/teams/fredrickuzb55/overview">
@@ -174,10 +174,10 @@ export const Navbar = () => {
 				</div>
 				<span className="navbar-text">
 					<div className="social-icon">
-						<a href="fredrickuzb55@gmail.com" target="blank">
+						<a href="mailto:fredrickuzb55.com" target="blank">
 							<HiMail></HiMail>
 						</a>
-						<a href="https://app.netlify.com/teams/fredrickuzb55/overview">
+						<a href="https://app.netlify.com/teams/fredrickuzb55/overview" target="blank">
 							<FaLinkedin></FaLinkedin>
 						</a>
 						<a href="https://github.com/Firdavs0108" target="blank">
@@ -186,7 +186,7 @@ export const Navbar = () => {
 					</div>
 					<a
 						className="button"
-						href=""
+						href="https://github.com/Firdavs0108" target="blank"
 					>
 						<span>Get my Resume</span>
 					</a>

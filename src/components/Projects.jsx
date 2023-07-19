@@ -3,11 +3,13 @@ import React, { useState } from "react";
 import kitchen from "../assets/chef.png";
 import kitchen2 from "../assets/welcome.png";
 import Trillo from "../assets/trillo-2.jpg";
-import Trillo2 from "../assets/trillo.png";
+import YouTube from "../assets/you tube.jpg";
 import Houzing from "../assets/houzing-2.jpg";
 import Houzing2 from "../assets/houzing.png";
 import Memory from "../assets/game-1.jpg";
 import Memory2 from "../assets/mole.jpg";
+import Logo from "../assets/logo.jpg";
+import Logo2 from "../assets/ipsum.jpg";
 import { FaTimes } from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
 import { Parallax } from "react-parallax";
@@ -15,6 +17,16 @@ import Img3 from "../assets/cosmos-3.jpg";
 import "../style/projects.css";
 function Projects() {
 	const projectList = [
+		{
+			name: "Logoipsum",
+			tools: "Html, Css",
+			mainPic: Logo2,
+			webPic: Logo,
+			type: "Figma",
+			info: " It is simple figma project for practice Html and Css ",
+			link: "https://myfirstprojectforclass.netlify.app/",
+			gitLink: "https://github.com/Firdavs0108/HTML-NEW/tree/master/FirstProject",
+		},
 		{
 			name: "Whac a Mole",
 			tools: "JavaScript",
@@ -47,14 +59,14 @@ function Projects() {
 			gitLink: "https://github.com/Firdavs0108/houzing-with-antd-master",
 		},
 		{
-			name: "Trillo",
-			tools: "CSS, SASS, Flexbox",
+			name: "YouTube_clone",
+			tools: "React JS, Styled component,",
 			mainPic: Trillo,
-			webPic: Trillo2,
-			type: "All-in-one-one booking App",
-			info: "Sample website for a touring company that demonstrates modern responsive design ",
-			link: "https://trillo-2.vercel.app/",
-			gitLink: "https://github.com/Ilkhomjon2002/trillo-2",
+			webPic: YouTube,
+			type: "YouTube_clone",
+			info: "Sample YouTube clone. Searching and deleting is possible ",
+			link: "https://youtubeclonebyfred.netlify.app/",
+			gitLink: "https://github.com/Firdavs0108/youtube_clone",
 		},
 	];
 

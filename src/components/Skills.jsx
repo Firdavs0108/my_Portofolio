@@ -47,11 +47,11 @@ const Skills = () => {
 						</div>
 						<div className="item">
 							<img src={img1} alt="image" />
-							<h5 className="title">Scss</h5>
+							<h5 className="title">Styled Component</h5>
 						</div>
 						<div className="item">
 							<img src={img1} alt="image" />
-							<h5 className="title">Bootstrap</h5>
+							<h5 className="title">MUI</h5>
 						</div>
 						<div className="item">
 							<img src={img1} alt="image" />
@@ -59,7 +59,7 @@ const Skills = () => {
 						</div>
 						<div className="item">
 							<img src={img1} alt="image" />
-							<h5 className="title"> TypeScript</h5>
+							<h5 className="title"> Ant Design</h5>
 						</div>
 						<div className="item">
 							<img src={img1} alt="image" />

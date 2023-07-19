@@ -7,13 +7,13 @@ const Footer = () => {
 	return (
 		<div className="footer-container">
 			<div className="social-icon footer-icons">
-				<a href="mailto:ilhommaxsudov3.com">
+				<a href="mailto:fredrickuzb55.com">
 					<HiMail></HiMail>
 				</a>
-				<a href="https://www.linkedin.com/in/ilhom-maxsudov-087242191/">
+				<a href="https://app.netlify.com/teams/fredrickuzb55/overview">
 					<FaLinkedin></FaLinkedin>
 				</a>
-				<a href="https://github.com/Ilkhomjon2002">
+				<a href="https://github.com/Firdavs0108">
 					<FaGithub></FaGithub>
 				</a>
 			</div>
@@ -75,8 +75,8 @@ const Footer = () => {
 				</Link>
 			</div>
 			<div className="others">
-				<span>01022860204</span>
-				<span>ILKHOMJON © 2022</span>
+				<span>01026745444</span>
+				<span>Firdavs © 2023</span>
 			</div>
 		</div>
 	);
