@@ -186,7 +186,7 @@ export const Navbar = () => {
 					</div>
 					<a
 						className="button"
-						href="https://github.com/Firdavs0108" target="blank"
+						href="https://www.canva.com/design/DAFpE68hEgs/1IDlINHFqmfxYigx9jCgVg/view?utm_content=DAFpE68hEgs&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="blank"
 					>
 						<span>Get my Resume</span>
 					</a>
