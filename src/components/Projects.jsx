@@ -37,6 +37,7 @@ function Projects() {
 			link: "https://firstprojectbynazarov.netlify.app/",
 			gitLink: "https://github.com/Firdavs0108/New-Project",
 		},
+		
 		{
 			
 			name: "Fred Kitchen",
