@@ -2,14 +2,14 @@ import React, { useState } from "react";
 
 import kitchen from "../assets/chef.png";
 import kitchen2 from "../assets/welcome.png";
-import Trillo from "../assets/trillo-2.jpg";
-import YouTube from "../assets/you tube.jpg";
+import Mek from "../assets/mek.png";
+import Mek2 from "../assets/mek2.png";
 import Houzing from "../assets/houzing-2.jpg";
 import Houzing2 from "../assets/houzing.png";
 import Memory from "../assets/game-1.jpg";
 import Memory2 from "../assets/mole.jpg";
-import Logo from "../assets/logo.jpg";
-import Logo2 from "../assets/ipsum.jpg";
+import Logo2 from "../assets/logo3.png";
+import Logo from "../assets/bankist-landing-2.jpg";
 import { FaTimes } from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
 import { Parallax } from "react-parallax";
@@ -18,18 +18,18 @@ import "../style/projects.css";
 function Projects() {
 	const projectList = [
 		{
-			name: "Logoipsum",
-			tools: "Html, Css",
-			mainPic: Logo2,
-			webPic: Logo,
-			type: "Figma",
-			info: " It is simple figma project for practice Html and Css ",
-			link: "https://myfirstprojectforclass.netlify.app/",
-			gitLink: "https://github.com/Firdavs0108/HTML-NEW/tree/master/FirstProject",
+			name: "E-Catalog",
+			tools: "Html, Css, Javascript",
+			mainPic: Logo,
+			webPic: Logo2,
+			type: "electron catalog",
+			info: " It is awesome electron catalog and short slide information about company ",
+			link: "https://ecatalog.netlify.app/",
+			gitLink: "https://github.com/Firdavs0108/atechelthermo_en",
 		},
 		{
 			name: "Whac a Mole",
-			tools: "JavaScript",
+			tools: "Html, Css, JavaScript",
 			mainPic: Memory,
 			webPic: Memory2,
 			type: "Web-Game",
@@ -60,14 +60,14 @@ function Projects() {
 			gitLink: "https://github.com/Firdavs0108/houzing-with-antd-master",
 		},
 		{
-			name: "YouTube_clone",
-			tools: "React JS, Styled component,",
-			mainPic: Trillo,
-			webPic: YouTube,
-			type: "YouTube_clone",
-			info: "Sample YouTube clone. Searching and deleting is possible ",
-			link: "https://youtubeclonebyfred.netlify.app/",
-			gitLink: "https://github.com/Firdavs0108/youtube_clone",
+			name: "MEK",
+			tools: "Html,Css,Javascript,PHP",
+			mainPic: Mek,
+			webPic: Mek2,
+			type: "MEK Wepsite Homepage",
+			info: "It is official Homepage of MEK company with many facilities",
+			link: "https://mek0209.netlify.app/",
+			gitLink: "https://github.com/Firdavs0108/mek_new",
 		},
 	];
 
